@@ -1,0 +1,27 @@
+{
+  "name": "dropwebp",
+  "version": "1.0.0",
+  "description": "Private, local batch WebP converter powered by libwebp WebAssembly.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "open": "vite --host 127.0.0.1 --open",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "keywords": [
+    "webp",
+    "image-converter",
+    "image-compression",
+    "libwebp",
+    "wasm",
+    "browser"
+  ],
+  "author": "Tasfiq Asif",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@jsquash/webp": "^1.5.0",
+    "jszip": "^3.10.1",
+    "vite": "^8.0.13"
+  }
+}
